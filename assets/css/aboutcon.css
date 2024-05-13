@@ -1,0 +1,139 @@
+@import "../styles.css";
+
+/*====================ABOUT================*/
+.about__img {
+    width: auto;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: auto;
+  }
+  
+  .about__description {
+    text-align: center;
+    margin-bottom: var(--mb-1);
+  }
+  
+  .about__info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+  }
+  
+  .about__info-title {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+  }
+  
+  .about__info-name {
+    font-size: var(--smaller-font-size);
+  }
+  
+  .about__info-title, .about__info-name {
+    display: block;
+    text-align: center;
+  }
+  
+  .about__buttons {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+  }
+  
+  .home__donlinks {
+    margin-top: var(--mb-2);
+  }
+  
+  .bmc__logo {
+    margin-top: var(--mb-1);
+    margin-right: var(--mb-1);
+    height: 35px;
+    width: auto;
+  }
+  
+  
+  /*==================== CONTACT ME ====================*/
+  .contact__container {
+    row-gap: 3rem;
+    /* center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+  
+  .contact__information {
+    display: flex;
+    margin-bottom: var(--mb-2);
+  }
+  
+  .contact__icon {
+    font-size: 2rem;
+    color: var(--input-color);
+    margin-right: var(--mb-0-75);
+  }
+  
+  .contact__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+  }
+  
+  .contact__subtitle {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+  }
+  
+  .contact__content {
+    background-color: var(--input-color);
+    border-radius: .5rem;
+    padding: .75rem 1rem .25rem;
+  }
+  
+  .contact__label {
+    font-size: var(--smaller-font-size);
+    color: var(--title-color);
+  }
+  
+  .contact__input {
+    width: 100%;
+    background-color: var(--input-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: .25rem .5rem .5rem 0;
+  }
+  
+    /*==================== PROJECT IN MIND ====================*/
+.project {
+  text-align: center;
+}
+
+.project__bg {
+  background-color: var(--first-color-alt);
+  opacity: 0.8;
+  padding-top: 1rem;
+}
+
+.project__title {
+  text-align: center;
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.project__description {
+  text-align: center;
+  margin-bottom: var(--mb-1-5);
+}
+
+.project__title, .project__description {
+ color: var(--title-color);
+}
+
+.project__img {
+  margin-top: auto;
+  width: 232px;
+  justify-self: center;
+}
